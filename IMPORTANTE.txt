@@ -47,3 +47,7 @@ git remote add git@github.com:fernandoguide/ProjetoPesquisaInovacao.git --> adic
 git config --global user.name "seu nome aqui" --> deixar como padrão seu usuario
 
 git config --global user.email "seu email aqui" --> como padrão seu email
+
+
+
+
