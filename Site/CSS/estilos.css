@@ -21,7 +21,7 @@ body {
 	box-shadow:0 0 2em black;
 	background-color:#253035;
 	width:100%;
-	position:absolute;
+	position:fixed;
 	top:0%;
     padding:0;
     z-index: 10;
@@ -117,7 +117,7 @@ input:hover,textarea:hover,input:focus,textarea:focus {
 	/*box-shadow:0 0 1em black;*/
 	padding:5%;
 	/*background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4));*/
-    background-color: #408f8f;
+    background-color: #1F3F3F;
     background-repeat: no-repeat;
     background-size: cover;
 	background-attachment:fixed;
@@ -173,14 +173,13 @@ hr{
 	float:left;
 	box-sizing: border-box;
 	border: 0px solid white;
-	padding:5px;
+	padding:25px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
 	background-color:#408f8f;
 }
 #valores img{
-	margin-top:20px;
-	width:45%;
+	width:55%;
 }
 
 textarea {
