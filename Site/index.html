@@ -11,13 +11,14 @@
 </head>
 
 <body>
-    <div class="menu">   
+    <div class="menu">
         <ul>
             <h2 style="float: left; padding-left: 2em;font-family: Georgia, 'Times New Roman', Times, serif">
-                <span style="color:rgb(250, 248, 248)">Hard</span><span style="color:rgb(214, 212, 212)">Desk</span>
+            <span style="color:rgb(250, 248, 248)">Hard</span><span style="color:rgb(70, 161, 146)">Desk</span>
             </h2>
             <li><a href="index.html">HOME</a></li>
             <li><a class="scroll" href="#sobre">SOBRE</a></li>
+            <li><a class="scroll" href="index.html">QUEM SOMOS</a></li>
             <li><a href="simuladorFinanceiro.html">SIMULADOR</a></li>
             <li><a href="email.html">CONTATO</a></li>
         </ul>
@@ -39,8 +40,8 @@
             diálogo a fim de satisfazer e
             surpreender suas expectativas.</p><br /> <br /><BR />
 
-        </div>
-        <div class="principios">
+    </div>
+    <div class="principios">
         <section id="opde1">
             <h1>
                 <p>OS PRINCÍPIOS DA EMPRESA
@@ -48,13 +49,15 @@
             <div id="opde">
                 <section id="missao">
                     <center><img src="IMG/missao.png" /></center>
-                    <p>Atingir o maior público possível com uma qualidade notável, priorizando a
-                        transparência e a comunicação para maior satisfação dos nossos clientes.</p><br />
+                    <p>"Encontrar e facilitar a ascensão dos negócios de seus clientes,
+                        tornando-os mais flexíveis e competitivos, visando
+                        sempre as suas necessidades específicas."</p><br />
                 </section>
                 <section id="visao">
                     <center><img src="IMG/visao.png" /></center>
-                    <p>Ser um grupo que consiga entender e suprir as necessidades dos
-                        clientes para obter reconhecimento no mercado digital.</p><br />
+                    <p>"Ser uma das maiores empresas de tecnologia do país, levando conosco
+                        nossos clientes a ascensão contínua e buscando sempre a
+                        melhor tecnologia para atendê-los"</p><br />
                 </section>
                 <section id="valores">
                     <center><img src="IMG/valores.png" /></center>
@@ -80,10 +83,11 @@
 </html>
 
 <script>
-
     ////////////////////////////EFEITO DE ROLAGEM SUAVE/////////////////////////////
     $(".scroll").click(function (event) {
         event.preventDefault();
-        $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 700);
+        $('html,body').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 700);
     });
 </script>

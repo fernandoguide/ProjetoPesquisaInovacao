@@ -126,7 +126,7 @@ input:hover,textarea:hover,input:focus,textarea:focus {
     	/*box-shadow:0 0 1em black;*/
 	padding:5%;
 	/*background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4));*/
-	background-color:#165f8f;
+	background-color:#173950;
 }
 .txtSobre{
 	text-align: justify;
@@ -141,6 +141,10 @@ hr{
 }
 
 #missao{
+    color:#ffffff;
+    font-size:16px;
+    line-height:16px;
+    font-weight:700;
     text-align: justify;
 	float:left;
 	box-sizing: border-box;
@@ -151,35 +155,40 @@ hr{
 	background-color:#408f8f;
 }
 #missao img{
-	width:52%;
+	width:45%;
 }
 #visao{
+    color:#ffffff;
+    font-size:16px;
+    line-height:16px;
+    font-weight:700;
     text-align: justify;
-	margin-left:10px;
 	float:left;
 	box-sizing: border-box;
 	border: 0px solid white;
-	padding:25px;
+	padding:15px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
 	background-color:#408f8f;
 }
 #visao img{
-	width:55%;
+	width:45%;
 }
 #valores{
+    color:#ffffff;
+    font-size:16px;
+    line-height:16px;
+    font-weight:700;
     text-align: justify;
-	margin-left:10px;
 	float:left;
 	box-sizing: border-box;
 	border: 0px solid white;
-	padding:5px;
+	padding:15px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
 	background-color:#408f8f;
 }
 #valores img{
-	margin-top:20px;
 	width:45%;
 }
 
