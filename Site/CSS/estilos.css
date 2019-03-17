@@ -183,21 +183,13 @@ hr{
 	float:left;
 	box-sizing: border-box;
 	border: 0px solid white;
-<<<<<<< HEAD
-	padding:25px;
-=======
 	padding:15px;
->>>>>>> a8ee4ab56bec73dced06b20739e4fa0685447f52
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
 	background-color:#408f8f;
 }
 #valores img{
-<<<<<<< HEAD
 	width:55%;
-=======
-	width:45%;
->>>>>>> a8ee4ab56bec73dced06b20739e4fa0685447f52
 }
 
 textarea {
