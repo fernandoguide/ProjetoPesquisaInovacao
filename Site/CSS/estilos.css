@@ -117,7 +117,7 @@ input:hover,textarea:hover,input:focus,textarea:focus {
 	/*box-shadow:0 0 1em black;*/
 	padding:5%;
 	/*background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4));*/
-    background-color: #00c4c4;
+    background-color: #408f8f;
     background-repeat: no-repeat;
     background-size: cover;
 	background-attachment:fixed;
@@ -148,7 +148,7 @@ hr{
 	padding:15px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
-	background-color:#00c4c4;
+	background-color:#408f8f;
 }
 #missao img{
 	width:52%;
@@ -162,7 +162,7 @@ hr{
 	padding:25px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
-	background-color:#00c4c4;
+	background-color:#408f8f;
 }
 #visao img{
 	width:55%;
@@ -176,7 +176,7 @@ hr{
 	padding:5px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
-	background-color:#00c4c4;
+	background-color:#408f8f;
 }
 #valores img{
 	margin-top:20px;
