@@ -127,11 +127,9 @@ input:hover,textarea:hover,input:focus,textarea:focus {
 	padding:5%;
 	/*background: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4),rgba(0,0,0,0.4));*/
 	/*background-color:#173950;*/
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*FOI AQUI QUE EU (VIC) MEXI*/
     background-size: cover;
 }
-
-
 .txtSobre{
 	text-align: justify;
     line-height: 40px;
@@ -156,7 +154,7 @@ hr{
 	padding:15px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
-	background-color:#253035;
+	background-color:#253035; /*FOI AQUI QUE EU (VIC) MEXI*/
 }
 #missao img{
 	width:45%;
@@ -173,7 +171,7 @@ hr{
 	padding:15px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
-	background-color:#253035;
+	background-color:#253035; /*FOI AQUI QUE EU (VIC) MEXI*/
 }
 #visao img{
 	width:45%;
@@ -190,7 +188,7 @@ hr{
 	padding:15px;
 	width: 32.50%;
 	box-shadow:0 0 1em #253036;
-	background-color:#253035;
+	background-color:#253035; /*FOI AQUI QUE EU (VIC) MEXI*/
 }
 #valores img{
 	width:55%;
