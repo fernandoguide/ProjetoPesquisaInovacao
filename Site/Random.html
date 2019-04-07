@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gerador de numeros aleatorios</title>
+</head>
+
+<body>
+    <div class="Numero">
+        <label for="nome">Digite um numero de 0 a 64</label><br>
+        <input type="number" name="numero" id="idnumero" placeholder="Digite um numero" required="required" name="number" />
+    </div><br />
+    <div class="submit" style="text-align:right;">
+        <input type="submit" onclick="Random();" value="Gerar numeros entre 0 e 64" />
+    </div>
+    <br><br>
+    <div id="div_resposta"></div>
+</body>
+<script>
+    function Random() {
+         div_resposta.innerHTML = `O numero gerado é ` + Math.floor(Math.random() * parseFloat(idnumero.value));
+    }
+</script>
+
+</html>
